@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ecacd7;
+  color: #ec48ad;
+  margin: 30px auto;
+  width: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: #ec48ad;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+  border: 1px solid #f0a3dd;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background-color: #fcf8fc;
+}
+
+legend {
+  font-weight: bold;
+  color: #ec48ad;
+}
+
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 95%;
+  padding: 6px 8px;
+  border: 1px solid #f0a3dd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+p {
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+  font-size: 16px;
+  color: #ec48ad;
+}
+
+input[type="submit"] {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  background-color: #ec48ad;
+  color: white;
+}
+input[type="submit"]:hover {
+  background-color: #a10066;
+}
